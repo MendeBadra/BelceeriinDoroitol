@@ -131,7 +131,7 @@ def get_gabor_segmentation(result_df, orthomosaic_dir: str, prefix: str, output_
     # with rasterio.open(nir_path) as nir_src:
     #     nir_band = cp.array(nir_src.read(1))
     
-    def get_ms_bands(orthomosaic_dir, prefix=""):       # This function is added by Mendee
+    def get_ms_bands(orthomosaic_dir, prefix=""):       # This function is added by Mendee # This confirms that we don't need to read bands separately.
         # Determine where the file is with its path.
         #orthopath = f"{orthomosaic_dir}/{prefix}_2024.tif"
         orthopath = orthomosaic_dir
@@ -142,7 +142,7 @@ def get_gabor_segmentation(result_df, orthomosaic_dir: str, prefix: str, output_
             
             
         with rasterio.open(orthopath) as src:
-            red_band = cp.array(src.read(3))
+            red_band = cp.array(src.read(3))    
             blue_band = cp.array(src.read(1))   # I hope my notes are correct about these band numbering.
             green_band = cp.array(src.read(2))
             red_edge_band = cp.array(src.read(4))
