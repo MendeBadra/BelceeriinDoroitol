@@ -1,6 +1,6 @@
 # Belceeriin doroitol project repo
 
-This is a git repo of my project of evaluating the Land degradation in Mongolia. 
+This is a git repo of my project of evaluating the Land degradation in Mongolia. The main idea is to classify, using image processing techniques, weeds and bare ground and assume the remaining part is healthy plant.
 
 ## Data
 
