@@ -60,5 +60,5 @@ python cli_segmentation.py \
 ## ✅ TODO
 
 * [ ] Merge internship progress (`Dadlaga_2024`).
-* [ ] Refactor repo into a modular structure.
+* [*] Refactor repo into a modular structure.
 * [ ] Publish reproducible demo notebook with sample dataset.
