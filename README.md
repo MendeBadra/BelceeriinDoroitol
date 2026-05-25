@@ -32,6 +32,7 @@ The system classifies orthomosaic images into **grass**, **weeds**, and **bare s
   * Object-Based Image Analysis (OBIA)
   * Early deep learning models (FastAI, ViTs)
 * Compatible with **QGIS** and **OpenDroneMap (ODM)** outputs.
+* Command line interface with argument parsing.
 
 ---
 
