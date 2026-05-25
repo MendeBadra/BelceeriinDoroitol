@@ -1,7 +1,7 @@
 # BelceeriinDoroitolV2 – Land Degradation Evaluation in Mongolia
-[Update: Presentation [slides](https://docs.google.com/presentation/d/1BvcVU_O69c-oM05ckK0No2ZJ_5Wgpw5ufpk8lP6x6ao/edit?usp=sharing) at First NUM-Yonsei University joint student workshop
+> Update: Presentation [slides](https://docs.google.com/presentation/d/1BvcVU_O69c-oM05ckK0No2ZJ_5Wgpw5ufpk8lP6x6ao/edit?usp=sharing) at First NUM-Yonsei University joint student workshop
 
-Update 2026.05.25: My thesis write up is available [here](https://drive.google.com/file/d/1GcDefePBMeKzups5SYEcjHAO8btNjAH7/view?usp=sharing) which goes over the project in more detailed manner]
+> Update 2026.05.25: My thesis write up is available [here](https://drive.google.com/file/d/1GcDefePBMeKzups5SYEcjHAO8btNjAH7/view?usp=sharing) which goes over the project in more detailed manner
 
 This repository contains my **Bachelor’s thesis project** on evaluating pastureland degradation in Hustai National Park, Mongolia, using **multispectral drone imagery** and **image processing techniques**.
 
