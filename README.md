@@ -5,11 +5,11 @@
 
 This repository contains my **Bachelor’s thesis project** on evaluating pastureland degradation in Hustai National Park, Mongolia, using **multispectral drone imagery** and **image processing techniques**.
 
-The system classifies orthomosaic images into **grass**, **weeds**, and **bare soil**, enabling automated assessment of land condition. The workflow reduces reliance on manual field surveys, potentially saving **hundreds of man-hours** in ecosystem research.
+The system classifies orthomosaic images into **grass**, **weeds**, and **bare soil**, enabling automated assessment of land condition. The aim of the research was to reduce reliance on manual field surveys using drone images, potentially saving **hundreds of man-hours** in ecosystem research.
 
 ---
 
-## 📂 Repository Overview
+## Repository Overview
 
 * **`experiments/`** – Jupyter notebooks and scripts for testing segmentation and classification methods.
 * **`reflectance_msavi_threshold/`** – Core implementation of reflectance calibration, vegetation index (MSAVI) computation, and threshold-based segmentation.
@@ -20,7 +20,7 @@ The system classifies orthomosaic images into **grass**, **weeds**, and **bare s
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * Automated **image alignment** and preprocessing.
 * Reflectance normalization using DJI Phantom 4 multispectral drone sun sensor data.
@@ -36,7 +36,7 @@ The system classifies orthomosaic images into **grass**, **weeds**, and **bare s
 
 ---
 
-## 📊 Results
+## Results
 
 * Clear separation of **healthy vegetation vs. degraded land**.
 * Thresholding + MSAVI normalization improved robustness across acquisition dates.
@@ -59,6 +59,12 @@ python cli_segmentation.py \
 * [E. Celikkan et al. – *WeedsGalore Dataset*](https://arxiv.org/abs/2502.13103)
 
 ---
+
+# Useful links
+
+I've found following projects to be extremely helpful for this kind of work:
+* \href{https://micasense.github.io/imageprocessing/}{Micasense imageprocessing} - Guides for making reflectance images, distortion correction from drone images.
+* \href{https://github.com/gdslab/p4m}{DJI Phantom P4 custom reflectance} image producer `raw2ref.py`.
 
 ## ✅ TODO
 
